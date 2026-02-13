@@ -1,0 +1,36 @@
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 1054px) {
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+    .header {
+        background-color: #f0f0f0;
+    }
+}
+
+
+@media (max-width: 826px) {
+    body {
+        font-size: 14px;
+    }
+    canvas {
+        width: 100%;
+        height: auto;
+    }
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+    .header {
+        background-color: #5d2e2e;
+    }
+}
